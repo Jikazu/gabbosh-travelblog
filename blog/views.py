@@ -3,6 +3,7 @@ from django.views import generic, View
 from django.http import HttpResponseRedirect
 from .models import Post
 from .forms import CommentForm
+from .models import Contact
 
 
 class PostList(generic.ListView):
@@ -10,6 +11,18 @@ class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by('-created_on')
     template_name = 'index.html'
     paginate_by = 6
+
+class Contact(View):
+    def contact(request):
+        if request.method=="POST":
+            fname = request.POST.get("name")
+            femail = request.POST.get("email")
+            desc = request.POST.get("desc")
+            query = Contact(name=fname, email=femail, description=desc)
+            query.save()
+            messages.info(request, "Thanks for contacting me!")
+            return redirect('/contact')
+        return render(request, 'contact.html')
 
 class PostDetail(View):
     def get(self, request, slug, *args, **kwargs):
@@ -74,3 +87,15 @@ class PostLike(View):
             post.likes.add(request.user)
         
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
+class Contact(View):
+    def contact(request):
+        if request.method=="POST":
+            fname = request.POST.get("name")
+            femail = request.POST.get("email")
+            desc = request.POST.get("desc")
+            query = Contact(name=fname, email=femail, description=desc)
+            query.save()
+            messages.info(request, "Thanks for contacting me!")
+            return redirect('/contact')
+        return render(request, 'contact.html')
