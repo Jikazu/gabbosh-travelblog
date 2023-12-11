@@ -12,17 +12,19 @@ class PostList(generic.ListView):
     template_name = 'index.html'
     paginate_by = 6
 
-#class Contact(View):
-#    def contact(request):
-#        if request.method=="POST":
-#            fname = request.POST.get("name")
-#            femail = request.POST.get("email")
-#            desc = request.POST.get("desc")
-#            query = Contact(name=fname, email=femail, description=desc)
-#            query.save()
-#            messages.info(request, "Thanks for contacting me!")
-#            return redirect('/contact')
-#        return render(request, 'contact.html')
+class ContactView(View):
+    def get(self, request):
+        return render(request, 'contact.html')
+    def contact(request):
+        if request.method=="POST":
+            fname = request.POST.get("name")
+            femail = request.POST.get("email")
+            desc = request.POST.get("desc")
+            query = Contact(name=fname, email=femail, description=desc)
+            query.save()
+            messages.info(request, "Thanks for contacting me!")
+            return redirect('contact')
+        return render(request, 'contact.html')
 
 class PostDetail(View):
     def get(self, request, slug, *args, **kwargs):
