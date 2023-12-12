@@ -1,9 +1,10 @@
-from django.shortcuts import render, get_object_or_404, reverse
+from django.shortcuts import render, get_object_or_404, reverse, redirect
 from django.views import generic, View
 from django.http import HttpResponseRedirect
 from .models import Post
 from .forms import CommentForm
 from .models import Contact
+from django.contrib import messages
 
 
 class PostList(generic.ListView):
@@ -15,7 +16,7 @@ class PostList(generic.ListView):
 class ContactView(View):
     def get(self, request):
         return render(request, 'contact.html')
-    def contact(request):
+    def post(self, request, *args, **kwargs):
         if request.method=="POST":
             fname = request.POST.get("name")
             femail = request.POST.get("email")
