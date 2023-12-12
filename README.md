@@ -41,17 +41,13 @@ The website is for my family and friends that want to see what I'm up to during 
 -   ### User stories
 
     -   #### First Time Visitor Goals
-          - As a first time visitor I can read and learn about the location and history and get a feel for the restaurant.
-          - As a first time visitor I can find out what kind of food they serve from their menu.
-          - As a first time visitor I can find information about how to make a reservation at the restaurant.
+          -
         
     -   #### Returning Visitor Goals
-        -  As a returning visitor I can create an account so I can make a reservation online.
-        -  As a returning visitor I can view the menu to see if has changed.
+        -  
 
     -   #### Frequent User Goals
-        -  As a frequent visitor I can login and find my current bookings.
-        -  As a frequent visitor I can change or cancel my booking in the login page.
+        - 
 
 -   ### Agile methodology
     - The principles of agile methodology were utilized during the project. By assigning user stories to issues and taking advantage of the GitHub Kanban board functionality, the necessary goals and priorities throughout the project could be well defined. In addition, labels were used to further define the priority of each user story in the Kanban board.  
@@ -165,24 +161,13 @@ A separate document for testing can be viewed here: [TESTING.md](docs/TESTING.md
 ### Testing User Stories from User Experience (UX) Section
 
   -   #### First Time Visitor Goals
-      - As a first time visitor I can read and learn about the location and history and get a feel for the restaurant.
-        - When entering the webpage information about the restaurant is easily found by either scrolling or navigating using the links.
-      - As a first time visitor I can find out what kind of food they serve from their menu.  
-        - The Customer can directly find a large link to the menu when entering the webpage.
-      - As a first time visitor I can find information about how to make a reservation at the restaurant.  
-        - When entering the webpage the Customer can find the booking link immediately in the hero section or in the navbar.
+      - 
         
   -   #### Returning Visitor Goals
-      -  As a returning visitor I can create an account so I can make a reservation online.
-          -  The Customer can use the signup link and quickly create an account login.
-      -  As a returning visitor I can view the menu to see if has changed.  
-          - When entering the webpage the Customer will find the menu first hand by clicking on the large button or scrolling.
+      -  
     
   -   #### Frequent User Goals
-      -  As a frequent visitor I can login and find my current bookings.  
-          - As a frequent Customer can easily login upon entering the webpage. After being logged in, the Customer can view their current bookings in the navbar.
-      -  As a frequent visitor I can change or cancel my booking in the login page.  
-          - After being logged in, the Customer can delete their current bookings by going to the mybookings page in the navbar.
+      -  
 
 
 
@@ -241,19 +226,16 @@ In the Deploy tab:
 ## Credits
 
 ### Code
-  - [Restaurantly Boostrap theme](https://bootstrapmade.com/restaurantly-restaurant-template/) was the Boostrap theme used in the project.
   - [Django Documenation](https://www.djangoproject.com/) was used to provide examples of code solutions and Django functionality.
   - [Bootstrap Documenation](https://getbootstrap.com/) was used to provide examples of Bootstrap functionality and building blocks.
   - [Code Institute walkthrough](https://codeinstitute.net/) as inspiration and code examples, the code institute walkthroughs "Hello Django" and "I Think Therefore I Blog" was used.
 
 ### Content
-  - The texts that are used for testimonials comes from [Tripadvisor](https://www.tripadvisor.com/).
-  - The texts that are used for the about section comes from [Royal35](https://royal35steakhouse.com/) website.
 
 
 ### Media
-  - The images in the project comes from the [Restaurantly Boostrap theme](https://bootstrapmade.com/restaurantly-restaurant-template/)
-  - The video in the project comes from the [Restaurantly Boostrap theme](https://bootstrapmade.com/restaurantly-restaurant-template/)
+  - The images in the project comes from me.
+  - The text in the project also comes from me.
 
 ### Acknowledgements
   - The tutor support team at Code Institute for their support.
