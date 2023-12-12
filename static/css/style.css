@@ -6,7 +6,7 @@ body {
     font-family: Lato, sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
-    color: #8bbb4c;
+    color: #008080;
 }
 
 .red-o {
@@ -26,7 +26,7 @@ body {
 }
 
 .main-bg {
-    background-color: #F9FAFC;
+    background-color: #FFB7C5;
 }
 
 .card {
@@ -88,7 +88,7 @@ body {
 
 .post-link {
     text-decoration: none;
-    color: #445261;
+    color: #008080;
 }
 
 .post-link:hover,
