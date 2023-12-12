@@ -1,110 +1,263 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Gabbosh Travelblog</h1>
+<div align="center"><img src=""></div>
 
-Welcome Gabriella Köhler,
+This website is made as a blog where I can share my own travelstories. It is the fourth project in the Code institute Full Stack Developer program. 
+The website is for my family and friends that want to see what I'm up to during my travels. The website comes with an account registration and a contact form where anyone can contact me regarding any topics on my blog.
+         
+[View the live project here.](placeholder)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## TOC
 
-## Gitpod Reminders
+- [User Experience (UX)](#user-experience-ux)
+  - [Project goals](#project-goals)
+  - [User Stories](#user-stories)
+  - [Agile Methodology](#agile-methodology)
+  - [Design](#design)
+    - [Wireframes](#wireframes)
+    - [Database Schema](#database-schema)
+- [Features](#features)
+  - [Future Features](#future-features)
+- [Technologies Used](#technologies-used)
+  - [Languages](#languages)
+  - [Frameworks Libraries Programs](#frameworks-libraries-programs)
+- [Testing](#testing)
+  - [Bugs](#bugs)
+    - [Fixed Bugs](#fixed-bugs)
+    - [Remaining Bugs](#remaining-bugs)
+- [Deployment](#deployment)
+  - [Forking the GitHub Repository](#forking-the-github-repository)
+  - [Running the project locally](#running-the-project-locally)
+  - [Deploying with Heroku](#deploying-with-heroku)
+- [Credits](#credits)
+  - [Code](#code)
+  - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
+-   ### Project goals  
+    The goal with this website is for me to share my pictures and stories from when I go abroad, which I do quite often. 
+  
+-   ### User stories
 
-`python3 -m http.server`
+    -   #### First Time Visitor Goals
+          - As a first time visitor I can read and learn about the location and history and get a feel for the restaurant.
+          - As a first time visitor I can find out what kind of food they serve from their menu.
+          - As a first time visitor I can find information about how to make a reservation at the restaurant.
+        
+    -   #### Returning Visitor Goals
+        -  As a returning visitor I can create an account so I can make a reservation online.
+        -  As a returning visitor I can view the menu to see if has changed.
 
-A blue button should appear to click: _Make Public_,
+    -   #### Frequent User Goals
+        -  As a frequent visitor I can login and find my current bookings.
+        -  As a frequent visitor I can change or cancel my booking in the login page.
 
-Another blue button should appear to click: _Open Browser_.
+-   ### Agile methodology
+    - The principles of agile methodology were utilized during the project. By assigning user stories to issues and taking advantage of the GitHub Kanban board functionality, the necessary goals and priorities throughout the project could be well defined. In addition, labels were used to further define the priority of each user story in the Kanban board.  
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+-   ### Design
+    - Discuss theme
+    
+     - Colours  
+        - 
+     - Font  
+        -    
+     - Images  
+        - The images are all taken by me, the author from my travels.
 
-A blue button should appear to click: _Make Public_,
+-   ### Wireframes  
+    - A separate document for the wireframes can be viewed here: 
+      - [For Desktop view]()
+      - [For Mobile view]()    
 
-Another blue button should appear to click: _Open Browser_.
+-   ### Database Schema  
+    - The database design schema can be viewed below. It consists of a Booking model with a foreignKey of User that relates to the Django standard User model class.  
+    ![dbschema](placeholder)  
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Features  
 
-To log into the Heroku toolbelt CLI:
+### Navbar  
+- The navbar shows all the sections that the user can enter and provides a quick and easy means of navigating the site. The link to make a booking is enlarged to make it extra easy to find and use. 
+&nbsp;  
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Navbar](placeholder)  
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+### Contact  
+- The contact section includes all the necessary information about the restaurant that the visitor may need to know about.  
+&nbsp;  
 
-## Release History
+![Contact](placeholder)  
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Account signup/login  
+- The account pages where the user can create an account in order to make a registration as well as login as an existing users.  
+&nbsp;  
 
-**September 20 2023:** Update Python version to 3.9.17.
+![signup](/docs/img/features/signup.png)
+![login](/docs/img/features/login.png)  
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Footer  
+- The footer contains the essential information about the restaurant for easy access to the most relevant contact information and social media links on all pages throughout the website.  
+&nbsp;  
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Footer](/docs/img/features/footer.png)  
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Future Features
+  - 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Technologies Used
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Languages
+   - Python
+   - JavaScript
+   - HTML5
+   - CSS3
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Frameworks, Libraries, Programs
+- Python Built-in Modules:
+  - [os](https://docs.python.org/3/library/os.html) 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- External Packages
+  - [cloudinary](https://pypi.org/project/cloudinary/1.29.0/) 
+  - [dj-database-url](https://pypi.org/project/dj-database-url/0.5.0/) 
+  - [dj3-cloudinary-storage](https://pypi.org/project/dj3-cloudinary-storage/0.0.6/) 
+  - [Django](https://pypi.org/project/Django/3.2.14/) 
+  - [django-allauth](https://pypi.org/project/django-allauth/0.51.0/)
+  - [gunicorn](https://pypi.org/project/gunicorn/20.1.0/)
+  - [psycopg2](https://pypi.org/project/psycopg2/2.9.3/) 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Programs & Tools
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- [Google Fonts:](https://fonts.google.com/)
+  - Was used to to incorporate font styles.  
+- [Bootstrap](https://getbootstrap.com/)
+  - Was used to create the front-end design.
+- [GitPod:](https://gitpod.io/)
+  - Gitpod was used as IDE to commit and push the project to GitHub.
+- [GitHub:](https://github.com/)
+  - Was used for all storing and backup of the code pertaining to the project.
+- [Balsamiq:](https://balsamiq.com/)
+  - Was used to create wireframes
+- [LucidCharts:](https://www.lucidchart.com/)
+  - Was used to create the database schema.
+ 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Testing  
+A separate document for testing can be viewed here: [TESTING.md](docs/TESTING.md)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Bugs
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#### Fixed Bugs
 
-------
+|Bug | Solution | Status |
+|----|:---------|:-------|
+|The url for my contact template did not work at all| It took me a good 8 hours to find out what was wrong. I only had a post function and not a get function in my class, so I went ahead and fixed that. | Fixed |
+|My css file I have did not work | I had to add a staticfiles_dirs to the settings.py | Fixed |
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+#### Remaining Bugs
+  - No known bugs remaining
 
-**How will this affect me?**
+### Testing User Stories from User Experience (UX) Section
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+  -   #### First Time Visitor Goals
+      - As a first time visitor I can read and learn about the location and history and get a feel for the restaurant.
+        - When entering the webpage information about the restaurant is easily found by either scrolling or navigating using the links.
+      - As a first time visitor I can find out what kind of food they serve from their menu.  
+        - The Customer can directly find a large link to the menu when entering the webpage.
+      - As a first time visitor I can find information about how to make a reservation at the restaurant.  
+        - When entering the webpage the Customer can find the booking link immediately in the hero section or in the navbar.
+        
+  -   #### Returning Visitor Goals
+      -  As a returning visitor I can create an account so I can make a reservation online.
+          -  The Customer can use the signup link and quickly create an account login.
+      -  As a returning visitor I can view the menu to see if has changed.  
+          - When entering the webpage the Customer will find the menu first hand by clicking on the large button or scrolling.
+    
+  -   #### Frequent User Goals
+      -  As a frequent visitor I can login and find my current bookings.  
+          - As a frequent Customer can easily login upon entering the webpage. After being logged in, the Customer can view their current bookings in the navbar.
+      -  As a frequent visitor I can change or cancel my booking in the login page.  
+          - After being logged in, the Customer can delete their current bookings by going to the mybookings page in the navbar.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+## Deployment
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Forking the GitHub Repository
+1. Go to [the project repository](https://github.com/ErikHgm/FireHouse-Restaurant-Project)
+2. In the right most top menu, click the "Fork" button.
+3. There will now be a copy of the repository in your own GitHub account.
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Running the project locally
+1. Go to [the project repository](https://github.com/ErikHgm/FireHouse-Restaurant-Project)
+2. Click on the "Code" button.
+3. Choose one of the three options (HTTPS, SSH or GitHub CLI) and then click copy.
+4. Open the terminal in you IDE program. 
+5. Type `git clone` and paste the URL that was copied in step 3.
+6. Press Enter and the local clone will be created. 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Alternatively by using Gitpod:
+1. Go to [the project repository](https://github.com/ErikHgm/FireHouse-Restaurant-Project)
+2. Click the green button that says "Gitpod" and the project will now open up in Gitpod.
 
-**Anything more?**
+### Deploying with Heroku
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+I followed the below steps using the Code Institute tutorial:
 
----
+The following command in the Gitpod CLI will create the relevant files needed for Heroku to install your project dependencies `pip3 freeze --local > requirements.txt`. Please note this file should be added to a .gitignore file to prevent the file from being committed.
 
-Happy coding!
+1. Go to [Heroku.com](https://dashboard.heroku.com/apps) and log in; if you do not already have an account then you will need to create one.
+2. Click the `New` dropdown and select `Create New App`.
+3. Enter a name for your new project, all Heroku apps need to have a unique name, you will be prompted if you need to change it.
+4. Select the region you are working in.
+
+#### Heroku Settings  
+You will need to set your Environment Variables - this is a key step to ensuring your application is deployed properly.
+1. In the Settings tab, click on `Reveal Config Vars` and set the following variables:
+    - Add key: `PORT` & value `8000`
+    - Add key: DATABASE_URL, this should have been created automatically by Heroku.
+    - Add key: CLOUDINARY_URL and the value as your cloudinary API Environment variable e.g.
+    - Add key: SECRET_KEY and the value as a complex string which will be used to provide cryptographic signing.
+
+2. Buildpacks are also required for proper deployment, simply click `Add buildpack` and search for the ones that you require.
+    - For this project, I needed to add `Python`.
+
+####  Heroku Deployment  
+In the Deploy tab:
+1. Connect your Heroku account to your Github Repository following these steps:
+    - Click on the `Deploy` tab and choose `Github-Connect to Github`.
+    - Enter the GitHub repository name and click on `Search`.
+    - Choose the correct repository for your application and click on `Connect`.
+2. You can then choose to deploy the project manually or automatically, automatic deployment will generate a new application every time you push a change to Github, whereas manual deployment requires you to push the `Deploy Branch` button whenever you want a change made.
+3. Once you have chosen your deployment method and have clicked `Deploy Branch` your application will be built and you should now see the `View` button, click this to open your application.
+
+
+## Credits
+
+### Code
+  - [Restaurantly Boostrap theme](https://bootstrapmade.com/restaurantly-restaurant-template/) was the Boostrap theme used in the project.
+  - [Django Documenation](https://www.djangoproject.com/) was used to provide examples of code solutions and Django functionality.
+  - [Bootstrap Documenation](https://getbootstrap.com/) was used to provide examples of Bootstrap functionality and building blocks.
+  - [Code Institute walkthrough](https://codeinstitute.net/) as inspiration and code examples, the code institute walkthroughs "Hello Django" and "I Think Therefore I Blog" was used.
+
+### Content
+  - The texts that are used for testimonials comes from [Tripadvisor](https://www.tripadvisor.com/).
+  - The texts that are used for the about section comes from [Royal35](https://royal35steakhouse.com/) website.
+
+
+### Media
+  - The images in the project comes from the [Restaurantly Boostrap theme](https://bootstrapmade.com/restaurantly-restaurant-template/)
+  - The video in the project comes from the [Restaurantly Boostrap theme](https://bootstrapmade.com/restaurantly-restaurant-template/)
+
+### Acknowledgements
+  - The tutor support team at Code Institute for their support.
+  - My Code Institute Mentor for feedback and suggestions.
+  - The Code Institute Slack community.
+
+  [Back to top](#toc)
