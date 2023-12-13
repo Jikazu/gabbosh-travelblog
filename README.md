@@ -1,7 +1,7 @@
 <h1 align="center">Gabbosh Travelblog</h1>
-<div align="center"><img src=""></div>
 
-This website is made as a blog where I can share my own travelstories. It is the fourth project in the Code institute Full Stack Developer program. 
+
+I'd like to start this with the preface that this is an unfinished project, as I've underestimated the time I had left for this project as I thought it was due 4 days later than the actual deadline. This website is made as a blog where I can share my own travelstories. It is the fourth project in the Code institute Full Stack Developer program. 
 The website is for my family and friends that want to see what I'm up to during my travels. The website comes with an account registration and a contact form where anyone can contact me regarding any topics on my blog.
          
 [View the live project here.](placeholder)
@@ -41,68 +41,68 @@ The website is for my family and friends that want to see what I'm up to during 
 -   ### User stories
 
     -   #### First Time Visitor Goals
-          -
+          - For the visitors to be able to see the blogposts I make
+          - For the visitors to be able to see who is running the blog
         
     -   #### Returning Visitor Goals
-        -  
-
-    -   #### Frequent User Goals
-        - 
+        - Be able to see any new blogposts
+        - Be able to like and comment on posts by registering an account
+        
 
 -   ### Agile methodology
     - The principles of agile methodology were utilized during the project. By assigning user stories to issues and taking advantage of the GitHub Kanban board functionality, the necessary goals and priorities throughout the project could be well defined. In addition, labels were used to further define the priority of each user story in the Kanban board.  
 
 -   ### Design
     - Discuss theme
+    I wanted to have quite bright colours inspired by Asia as that is my favorite travel destination.
     
      - Colours  
-        - 
+        - I'm using a Sakura pink as the background colour, along with whites towards the edges, and black as it has good visibility as a text. I'm also using a lotus blue colour to complement the pink and whites.
      - Font  
-        -    
+        -    I'm using Roboto and Lato from [Google fonts](https://fonts.google.com/)
      - Images  
-        - The images are all taken by me, the author from my travels.
+        - The images are all taken by me, the author, from my travels and a stockphoto from Code Institute as a placeholder. 
 
 -   ### Wireframes  
-    - A separate document for the wireframes can be viewed here: 
-      - [For Desktop view]()
-      - [For Mobile view]()    
+    - I did not have the time to create any as I was planning to change the layout from the original template.
 
 -   ### Database Schema  
-    - The database design schema can be viewed below. It consists of a Booking model with a foreignKey of User that relates to the Django standard User model class.  
-    ![dbschema](placeholder)  
+    - I did not have the time to draw up a database schema before the deadline. 
 
 ## Features  
 
 ### Navbar  
-- The navbar shows all the sections that the user can enter and provides a quick and easy means of navigating the site. The link to make a booking is enlarged to make it extra easy to find and use. 
-&nbsp;  
+- The navbar shows all the sections that the user can enter and provides a quick and easy means of navigating the site. 
 
-![Navbar](placeholder)  
+
+![Navbar](/readme-images/navbar.png)  
 
 
 ### Contact  
-- The contact section includes all the necessary information about the restaurant that the visitor may need to know about.  
+- The contact section includes a form where the user can contact the owner of the website. 
+
+![Contact](/readme-images/contactform.png)  
+
+### Register/login  
+- I have two pages, one where a user can register for an account, and one where they can login
 &nbsp;  
 
-![Contact](placeholder)  
-
-### Account signup/login  
-- The account pages where the user can create an account in order to make a registration as well as login as an existing users.  
-&nbsp;  
-
-![signup](/docs/img/features/signup.png)
-![login](/docs/img/features/login.png)  
+![register](/readme-images/register.png)
+![login](/readme-images/login.png)  
 
 
 ### Footer  
-- The footer contains the essential information about the restaurant for easy access to the most relevant contact information and social media links on all pages throughout the website.  
+- The footer contains links to my social media.
 &nbsp;  
 
-![Footer](/docs/img/features/footer.png)  
+![Footer](/readme-images/footer.png)  
 
 
 ### Future Features
-  - 
+  - An about page where I can have information about myself as the blog owner.
+  - Add further functionality in my contact model so that I can send a reply directly from there instead of just viewing
+  - Different layout than the template I used
+  - Creating an account and logging in with either google account/facebook account
 
 ## Technologies Used
 
@@ -123,7 +123,6 @@ The website is for my family and friends that want to see what I'm up to during 
   - [Django](https://pypi.org/project/Django/3.2.14/) 
   - [django-allauth](https://pypi.org/project/django-allauth/0.51.0/)
   - [gunicorn](https://pypi.org/project/gunicorn/20.1.0/)
-  - [psycopg2](https://pypi.org/project/psycopg2/2.9.3/) 
 
 ### Programs & Tools
 
@@ -135,10 +134,7 @@ The website is for my family and friends that want to see what I'm up to during 
   - Gitpod was used as IDE to commit and push the project to GitHub.
 - [GitHub:](https://github.com/)
   - Was used for all storing and backup of the code pertaining to the project.
-- [Balsamiq:](https://balsamiq.com/)
-  - Was used to create wireframes
-- [LucidCharts:](https://www.lucidchart.com/)
-  - Was used to create the database schema.
+
  
 
 ## Testing  
