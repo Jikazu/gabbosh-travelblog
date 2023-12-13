@@ -1,7 +1,7 @@
 <h1 align="center">Gabbosh Travelblog</h1>
 
 
-I'd like to start this with the preface that this is an unfinished project, as I've underestimated the time I had left for this project as I thought it was due 4 days later than the actual deadline. This website is made as a blog where I can share my own travelstories. It is the fourth project in the Code institute Full Stack Developer program. 
+I'd like to start this with the preface that this is an unfinished project, as I've underestimated the time I had left for this project as I thought it was due 4 days later than the actual deadline. This website is based on the walkthrough project "I think therefore I blog". I made as a blog where I can share my own travelstories. It is the fourth project in the Code institute Full Stack Developer program. 
 The website is for my family and friends that want to see what I'm up to during my travels. The website comes with an account registration and a contact form where anyone can contact me regarding any topics on my blog.
          
 [View the live project here.](placeholder)
@@ -59,7 +59,7 @@ The website is for my family and friends that want to see what I'm up to during 
      - Colours  
         - I'm using a Sakura pink as the background colour, along with whites towards the edges, and black as it has good visibility as a text. I'm also using a lotus blue colour to complement the pink and whites.
      - Font  
-        -    I'm using Roboto and Lato from [Google fonts](https://fonts.google.com/)
+        - I'm using Roboto and Lato from [Google fonts](https://fonts.google.com/)
      - Images  
         - The images are all taken by me, the author, from my travels and a stockphoto from Code Institute as a placeholder. 
 
@@ -100,7 +100,7 @@ The website is for my family and friends that want to see what I'm up to during 
 
 ### Future Features
   - An about page where I can have information about myself as the blog owner.
-  - Add further functionality in my contact model so that I can send a reply directly from there instead of just viewing
+  - Add further functionality in my contact model so that I can send a reply directly from there instead of just viewing the content.
   - Different layout than the template I used
   - Creating an account and logging in with either google account/facebook account
 
@@ -135,10 +135,14 @@ The website is for my family and friends that want to see what I'm up to during 
 - [GitHub:](https://github.com/)
   - Was used for all storing and backup of the code pertaining to the project.
 
- 
 
 ## Testing  
-A separate document for testing can be viewed here: [TESTING.md](docs/TESTING.md)
+I have done testing throughout the project.
+- The user can create an account and login without any errors.
+- The user can like comments without any errors. In the backend I can see the likes.
+- The user can comment on posts without any errors. In the backend I can approve or not approve posts.
+- The user can use the contact form without any errors. In the backend I can view all the replies, and see their email details.
+- The admin can create a post, with pictures without any errors. I can also edit the posts after the creation.
 
 ### Bugs
 
@@ -148,35 +152,23 @@ A separate document for testing can be viewed here: [TESTING.md](docs/TESTING.md
 |----|:---------|:-------|
 |The url for my contact template did not work at all| It took me a good 8 hours to find out what was wrong. I only had a post function and not a get function in my class, so I went ahead and fixed that. | Fixed |
 |My css file I have did not work | I had to add a staticfiles_dirs to the settings.py | Fixed |
+|At one point in my workspace everything broke, all my styling disappeared and the admin didnt work. | I panicked but luckily I had not commited nor pushed any changes from the time it was broken, so I pushed the previous changes and opened up a new workspace. | Fixed |
 
 
 
 #### Remaining Bugs
   - No known bugs remaining
 
-### Testing User Stories from User Experience (UX) Section
-
-  -   #### First Time Visitor Goals
-      - 
-        
-  -   #### Returning Visitor Goals
-      -  
-    
-  -   #### Frequent User Goals
-      -  
-
-
-
 ## Deployment
 
 ### Forking the GitHub Repository
-1. Go to [the project repository](https://github.com/ErikHgm/FireHouse-Restaurant-Project)
+1. Go to [the project repository](https://github.com/Jikazu/gabbosh-travelblog)
 2. In the right most top menu, click the "Fork" button.
 3. There will now be a copy of the repository in your own GitHub account.
 
 
 ### Running the project locally
-1. Go to [the project repository](https://github.com/ErikHgm/FireHouse-Restaurant-Project)
+1. Go to [the project repository](https://github.com/Jikazu/gabbosh-travelblog)
 2. Click on the "Code" button.
 3. Choose one of the three options (HTTPS, SSH or GitHub CLI) and then click copy.
 4. Open the terminal in you IDE program. 
@@ -184,7 +176,7 @@ A separate document for testing can be viewed here: [TESTING.md](docs/TESTING.md
 6. Press Enter and the local clone will be created. 
 
 ### Alternatively by using Gitpod:
-1. Go to [the project repository](https://github.com/ErikHgm/FireHouse-Restaurant-Project)
+1. Go to [the project repository](https://github.com/Jikazu/gabbosh-travelblog)
 2. Click the green button that says "Gitpod" and the project will now open up in Gitpod.
 
 ### Deploying with Heroku
@@ -234,7 +226,7 @@ In the Deploy tab:
   - The text in the project also comes from me.
 
 ### Acknowledgements
-  - The tutor support team at Code Institute for their support.
+
   - My Code Institute Mentor for feedback and suggestions.
   - The Code Institute Slack community.
 
