@@ -4,7 +4,7 @@
 I'd like to start this with the preface that this is an unfinished project, as I've underestimated the time I had left for this project as I thought it was due 4 days later than the actual deadline. This website is based on the walkthrough project "I think therefore I blog". I made as a blog where I can share my own travelstories. It is the fourth project in the Code institute Full Stack Developer program. 
 The website is for my family and friends that want to see what I'm up to during my travels. The website comes with an account registration and a contact form where anyone can contact me regarding any topics on my blog.
          
-[View the live project here.](placeholder)
+[View the live project here.](https://gabbosh-travelblog-6ba49b37d1ec.herokuapp.com/)
 
 
 ## TOC
@@ -219,7 +219,6 @@ In the Deploy tab:
   - [Code Institute walkthrough](https://codeinstitute.net/) as inspiration and code examples, the code institute walkthroughs "Hello Django" and "I Think Therefore I Blog" was used.
 
 ### Content
-
 
 ### Media
   - The images in the project comes from me.
