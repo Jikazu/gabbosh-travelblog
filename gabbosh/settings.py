@@ -158,7 +158,7 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
  
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    "/workspace/gabbosh-travelblog/static/",
+    "/workspace/gabbosh-travelblog/static/css",
 ]
 STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
 # Default primary key field type
